@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karen Lorenzo - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <button class="menu-toggle">
+        <i class="fas fa-bars"></i>
+    </button>
+    
+    <nav>
+        <div class="nav-container">
+            <div class="nav-brand">
+                <a href="#" class="logo">Karen</a>
+            </div>
+    
+            <ul class="nav-links">
+                <li><a href="#home"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="#about"><i class="fas fa-user"></i> About</a></li>
+                <li><a href="#resume"><i class="fas fa-file-alt"></i> Resume</a></li>
+                <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="toggle-container">
+            <button onclick="toggleMode()" class="mode-toggle">
+                <i class="fas fa-sun"></i>  <i class="fas fa-moon"></i> 
+        </div>
+    </nav>
+    
+
+    
+    <main>
+        <section id="home">
+            <div class="home-container">
+                <div class="text-content">
+                    <h1>I'm <span class="animated-name">Karen Lorenzo</span></h1>
+                    <h2><span class="typing-text"></span></h2>
+                    <p class="about-text">I am a passionate IT student at Fullbright College, exploring technology, web development, and problem-solving.</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/share/14TppyxkPg/"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/kkaarreenn28"><i class="fab fa-instagram"></i></a>
+                        <a href="https://github.com/karenlorenzo28"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <img src="karen.jpg" alt="Karen Lorenzo" class="profile-img">
+            </div>
+        </section>
+        
+<section id="about" class="about-section">
+    <h2>About Me</h2>
+    
+        <div class="about-content">
+            <div class="about-details">
+                <div class="about-item">
+                    <h3>Introduction</h3>
+                    <p>
+                        I am an aspiring web developer passionate about coding, design, and technology. 
+                        I enjoy solving problems, learning new skills, and working on creative projects. 
+                        My goal is to become a professional web developer and designer, creating user-friendly and visually appealing websites. 
+                    </p>
+                </div>
+
+                <div class="about-item">
+                    <h3>Personal Details</h3>
+                        <li>📅 <strong>Age:</strong> 24</li>
+                        <li>📍 <strong>Location:</strong> Purok Kapalaran Brgy. Luzviminda Puerto Princesa City</li>
+                        <li>🎓 <strong>Education:</strong> 2nd-year IT Student</li>
+                        <li>📧 <strong>Email:</strong>lorenzokaren828@yahoo.com</li>
+                        <li>📱 <strong>Phone:</strong> +63 936 563 5113</li>
+                        <li>💼 <strong>Career Goal:</strong> Web Developer & Designer</li>
+                </div>
+
+                <div class="about-item">
+                    <h3>Hobbies & Interests</h3>
+                        <li>💻 Web Development</li>
+                        <li>🎨 UI/UX Design</li>
+                        <li>📚 Reading Tech Blogs</li>
+                        <li>🕹️ Playing Puzzle Games</li>
+                        <li>📸 Photography</li>
+                        <li>✍️ Writing about tech & coding</li>
+                </div>
+
+                <div class="about-item">
+                    <h3>Favorite Quote</h3>
+                    <blockquote>
+                        "The only way to do great work is to love what you do." – Steve Jobs
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+</section>
+
+<section id="resume" class="about-section">
+    <h2>Resume</h2>
+
+        <div class="about-content">
+            <div class="about-details">
+                <div class="about-item">
+                    <h3>🎓 Education</h3>
+                        <li><strong>Andres Bonifacio Elementary School</strong> (2011-2012)</li>
+                        <li><strong>Lakandula High School</strong> (2015-2016)</li>
+                        <li><strong>Luzviminda National High School</strong> Tech-Voc (2018)</li>
+                        <li><strong>Fullbright College</strong> IT Student (2023 - Present)</li>
+
+                </div>
+
+                <div class="about-item">
+                    <h3>🛠 Skills</h3>
+                        <li>HTML <span>10%</span>
+                            <div class="progress-bar"><div class="progress" style="width: 10%;"></div></div>
+                        </li>
+                        <li>CSS <span>0%</span>
+                            <div class="progress-bar"><div class="progress" style="width: 0%;"></div></div>
+                        </li>
+                        <li>JavaScript <span>10%</span>
+                            <div class="progress-bar"><div class="progress" style="width: 10%;"></div></div>
+                        </li>
+                        <li>Python <span>80%</span>
+                            <div class="progress-bar"><div class="progress" style="width: 80%;"></div></div>
+                        </li>
+                        <li>UI/UX <span>0%</span>
+                            <div class="progress-bar"><div class="progress" style="width: 0%;"></div></div>
+                        </li>
+                </div>                
+
+                <div class="about-item">
+                    <h3>🌎 Languages</h3>
+                        <li><strong>Programming:</strong> HTML, CSS, JavaScript, Python</li>
+                        <li><strong>Spoken:</strong> English, Filipino</li>
+
+                </div>
+
+                <div class="about-item">
+                    <h3>🤝 Soft Skills</h3>
+                        <li>Problem-Solving</li>
+                        <li>Team Collaboration</li>
+                        <li>Attention to Detail</li>
+                        <li>Adaptability</li>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="about-section">
+    <h2>Contact Me</h2>
+
+        <div class="about-content">
+            <div class="about-details">
+                <div class="about-item">
+                    <h3>📩 Email</h3>
+                    <p>lorenzokaren828@gmail.com</p>
+
+                </div>
+
+                <div class="about-item">
+                    <h3>📞 Phone</h3>
+                    <p>+63 936 563 5113</p>
+
+                </div>
+
+                <div class="about-item">
+                    <h3>📍 Location</h3>
+                    <p>Purok Kapalaran Brgy. Luzviminda Puerto Princesa City</p>
+
+                </div>
+
+                <div class="about-item">
+                    <h3>🌐 Social Media</h3>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/share/14TppyxkPg/"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/kkaarreenn28"><i class="fab fa-instagram"></i></a>
+                        <a href="https://github.com/karenlorenzo28"><i class="fab fa-github"></i></a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    
+</body>
+</html>
